@@ -1,0 +1,26 @@
+{
+    "name": "creek",
+    "displayName": "creek",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "creek-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/creek-dark-color-theme.json"
+            },
+            {
+                "label": "creek-light",
+                "uiTheme": "vs",
+                "path": "./themes/creek-light-color-theme.json"
+            }
+        ]
+    }
+}

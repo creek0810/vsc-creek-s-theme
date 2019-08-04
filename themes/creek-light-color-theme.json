@@ -1,0 +1,86 @@
+{
+    "name": "creek light",
+    "type": "light",
+    "colors": {
+        "editor.background": "#efefef",
+        "editor.foreground": "#268BD2",
+        "activityBarBadge.background": "#007acc",
+        "sideBarTitle.foreground": "#007acc",
+        "tab.activeBackground": "#ffffff",
+        "tab.activeBorder": "#2AA198"
+    },
+    "tokenColors": [
+        {
+            "settings": {
+                "foreground": "#eeffffff",
+            }
+        },
+        {
+            "name": "",
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "#2AA198"
+            }
+        },
+        {
+            "name": "",
+            "scope": [
+                "keyword",
+                "constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "#CB4B16"
+            }
+        },
+        {
+            "name": "",
+            "scope": [
+                "comment.block",
+                "comment.line.double-slash"
+            ],
+            "settings": {
+                "foreground": "#93A1A1",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "",
+            "scope": "storage.modifier",
+            "settings": {
+                "foreground": "#CB4B16"
+            }
+        },
+        {
+            "name": "",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#2AA198"
+            }
+        },
+        {
+            "name": "",
+            "scope": "string",
+            "settings": {
+                "foreground": "#CB4B16"
+            }
+        },
+        {
+            "name": "",
+            "scope": [
+                "punctuation",
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#586e75"
+            }
+        },
+        {
+            "name": "html info",
+            "scope": "markup.heading.2",
+            "settings": {
+                "foreground": "#CB4B16"
+            }
+
+        }
+    ],
+}
